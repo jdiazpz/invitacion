@@ -4,7 +4,7 @@
 <title>Redirigiendo...</title>
 <script type="text/javascript">
 window.onload = function() {
-var telefono = new URLSearchParams(window.location.search).get('seccion');
+var seccion = new URLSearchParams(window.location.search).get('seccion');
 if (seccion) {
 // Lógica para determinar el siguiente formulario basado en el número de teléfono
 var siguienteFormulario = seccion === '1' ? 'https://forms.gle/MNEf3qxnFVqMxf886' : 'https://forms.gle/VV3sqydkNVzq3VQSA';
